@@ -1,0 +1,3 @@
+[submodule "teihtml"]
+	path = teihtml
+	url = git@github.com:keinstein/teihtml.git

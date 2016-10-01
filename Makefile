@@ -2,7 +2,7 @@ all: index.html
 
 
 index.html: 
-	xsltproc ../../stylesheet/teic/teihtml-teic.xsl index.xml > index.html
+	xsltproc --path ".:test" teihtml/teihtml-teic.xsl index.xml > index.html || rm index.html
 
 
 clean:
